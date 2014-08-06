@@ -1,0 +1,38 @@
+{
+  "name": "gerry",
+  "version": "0.1.0",
+  "description": "Gerry,a tiny module for event logging.",
+  "homepage": "https://github.com/rootslab/gerry",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rootslab/gerry.git"
+  },
+  "keywords": [
+    "gerry",
+    "logger",
+    "event logger",
+    "logging",
+    "debug",
+    "util"
+  ],
+  "author": {
+    "name": "Guglielmo Ferri",
+    "email": "44gatti@gmail.com"
+  },
+  "dependencies": {
+    "bolgia": ">=2.6.2"
+    },
+  "main": "index",
+  "engines": {
+    "node": ">=0.8.x"
+  },
+  "scripts": {
+    "test": "bash test/run.sh",
+    "bench": "bash bench/run.sh"
+  },
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "bugs": {
+    "url": "https://github.com/rootslab/gerry/issues"
+  }
+}
