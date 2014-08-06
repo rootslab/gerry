@@ -84,7 +84,7 @@ Gerry#enable = function ( [ Function logger ] ) :
 Gerry#disable = function ( [ Function logger ] ) :
 
 /*
- * Update/push event names, a name is added if not already exist in the list.
+ * Update/push event names, a name is added if not already exists in the list.
  */
 Gerry#push = function ( [ String evt_name_1 [, ..String evt_name_N.. ] ] ) : Number
 
