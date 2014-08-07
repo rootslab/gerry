@@ -39,7 +39,7 @@ $ npm test
 > Arguments within [ ] are optional.
 
 ```javascript
-var g = Gerry( EventEmitter emt [, Array evt_names [, Function logger ] ] )
+Gerry( EventEmitter emt [, Array evt_names [, Function logger ] ] )
 // or
 new Gerry( EventEmitter emt [, Array evt_names [, Function logger ] ] )
 ```
@@ -50,7 +50,7 @@ new Gerry( EventEmitter emt [, Array evt_names [, Function logger ] ] )
 /*
  * List of event names.
  */
-Gerry.list : Array
+Gerry.events : Array
 
 /*
  * Current emitter to listen.
@@ -63,9 +63,9 @@ Gerry.emt : EventEmitter
 Gerry.listeners : Array
 
 /*
- * A function logger, for default it logs to console.
+ * The logger function, for default it outputs to console.
  */
-Gerry.lfn = Function
+Gerry.lfn : Function
 ```
 
 ###Methods
@@ -76,7 +76,7 @@ Gerry.lfn = Function
 /*
  * Enable event logging by adding all events listeners.
  */
-Gerry#enable = function ( [ Function logger [, Boolean collect_events ] ] ) :
+Gerry#enable = function ( [ Boolean collect_events [, Function logger ] ] ) :
 
 /*
  * Disable event logging by removing all events listeners.
@@ -86,7 +86,7 @@ Gerry#disable = function ( [ Function logger ] ) :
 /*
  * Update/push event names, a name is added if not already exists in the list.
  */
-Gerry#push = function ( [ Array evt_names | String evt_name_1 [, ..String evt_name_N.. ] ] ) : Number
+Gerry#push = function ( [ Boolean collect_events [, Array evt_names | String evt_name_1 [, ..String evt_name_N.. ] ] ] ) : Number
 
 /*
  * Return the current list length.
