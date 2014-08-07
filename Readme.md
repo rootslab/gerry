@@ -65,7 +65,7 @@ Gerry.listeners : Array
 /*
  * A function logger, for default it logs to console.
  */
-Gerry.logger = Function
+Gerry.lfn = Function
 ```
 
 ###Methods
