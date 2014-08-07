@@ -23,7 +23,7 @@ var log = console.log
     , evt = evts[ 0 ]
     ;
 
-log( '- build Gerry with a dummy emitter and registering on events:', inspect( evts ) );
+log( '- build a Gerry instance passing a dummy emitter and its events:', inspect( evts ) );
 
 log( '- enable logging and collecting for events and arguments.' );
 
