@@ -63,7 +63,7 @@ Gerry.emt : EventEmitter
 Gerry.listeners : Array
 
 /*
- * A function logger, it defaults to console logging.
+ * A function logger, for default it logs to console.
  */
 Gerry.logger = Function
 ```
@@ -79,7 +79,7 @@ Gerry.logger = Function
 Gerry#enable = function ( [ Function logger ] ) :
 
 /*
- * Disable event logging by removng all events listeners.
+ * Disable event logging by removing all events listeners.
  */
 Gerry#disable = function ( [ Function logger ] ) :
 
