@@ -76,7 +76,7 @@ Gerry.logger = Function
 /*
  * Enable event logging by adding all events listeners.
  */
-Gerry#enable = function ( [ Function logger ] ) :
+Gerry#enable = function ( [ Function logger [, Boolean collect_events ] ] ) :
 
 /*
  * Disable event logging by removing all events listeners.
@@ -86,7 +86,7 @@ Gerry#disable = function ( [ Function logger ] ) :
 /*
  * Update/push event names, a name is added if not already exists in the list.
  */
-Gerry#push = function ( [ String evt_name_1 [, ..String evt_name_N.. ] ] ) : Number
+Gerry#push = function ( [ Array evt_names | String evt_name_1 [, ..String evt_name_N.. ] ] ) : Number
 
 /*
  * Return the current list length.
