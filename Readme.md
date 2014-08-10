@@ -1,13 +1,16 @@
 ###Gerry
 
-[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/gerry#mit-license)
-[![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/gerry.svg)](http://npm-stat.com/charts.html?package=gerry)
+[![CODECLIMATE](http://img.shields.io/codeclimate/github/rootslab/gerry.svg?style=flat)](https://codeclimate.com/github/rootslab/gerry)
+[![CODECLIMATE-TEST-COVERAGE](http://img.shields.io/codeclimate/coverage/github/rootslab/gerry.svg?style=flat)](https://codeclimate.com/github/rootslab/gerry)
 
-[![NPM VERSION](http://img.shields.io/npm/v/gerry.svg)](https://www.npmjs.org/package/gerry)
-[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/gerry.svg)](http://travis-ci.org/rootslab/gerry)
-[![BUILD STATUS](http://img.shields.io/david/rootslab/gerry.svg)](https://david-dm.org/rootslab/gerry)
-[![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/gerry.svg)](https://david-dm.org/rootslab/gerry#info=devDependencies)
+[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/gerry#mit-license)
+[![GITTIP](http://img.shields.io/gittip/rootslab.svg?style=flat)](https://www.gittip.com/rootslab/)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/gerry.svg?style=flat)](http://npm-stat.com/charts.html?package=gerry)
+
+[![NPM VERSION](http://img.shields.io/npm/v/gerry.svg?style=flat)](https://www.npmjs.org/package/gerry)
+[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/gerry.svg?style=flat)](http://travis-ci.org/rootslab/gerry)
+[![BUILD STATUS](http://img.shields.io/david/rootslab/gerry.svg?style=flat)](https://david-dm.org/rootslab/gerry)
+[![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/gerry.svg?style=flat)](https://david-dm.org/rootslab/gerry#info=devDependencies)
 
 [![NPM GRAPH1](https://nodei.co/npm-dl/gerry.png)](https://nodei.co/npm/gerry/)
 
