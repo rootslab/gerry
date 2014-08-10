@@ -20,7 +20,6 @@
     "email": "44gatti@gmail.com"
   },
   "dependencies": {
-    "bolgia": ">=2.7.0"
     },
   "main": "index",
   "engines": {
