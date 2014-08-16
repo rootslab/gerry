@@ -49,12 +49,13 @@ new Gerry( EventEmitter emt [, Array evt_names [, Function logger ] ] )
 
 ###Properties
 
+```javascript
+
 /*
  * Current emitter to listen.
  */
 Gerry.emt : EventEmitter
 
-```javascript
 /*
  * List of event names to log/save.
  */
