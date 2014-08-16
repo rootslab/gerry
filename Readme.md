@@ -72,7 +72,7 @@ Gerry.listeners : Array
 Gerry.lfn : Function
 
 /*
- * Sn obj/hash contianing The list of collected event names and arguments.
+ * An obj/hash containing The list of collected event names and arguments.
  * { events : [ .. ], args : [ .. ] }
  */
 Gerry.collected : Object
