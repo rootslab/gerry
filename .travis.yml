@@ -9,5 +9,6 @@ before_script:
 script: istanbul cover -v test/run.js 
 after_script:
  - codeclimate < coverage/lcov.info
-env: 
- - CODECLIMATE_REPO_TOKEN=fefa30841577f0367e5a76c7812cfce5c28b26d372a829a230b88b26923ab1d0
+addons:
+ code_climate:
+  repo_token: fefa30841577f0367e5a76c7812cfce5c28b26d372a829a230b88b26923ab1d0

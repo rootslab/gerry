@@ -49,16 +49,16 @@ new Gerry( EventEmitter emt [, Array evt_names [, Function logger ] ] )
 
 ###Properties
 
-```javascript
-/*
- * List of event names.
- */
-Gerry.events : Array
-
 /*
  * Current emitter to listen.
  */
 Gerry.emt : EventEmitter
+
+```javascript
+/*
+ * List of event names to log/save.
+ */
+Gerry.events : Array
 
 /*
  * Array of event listeners.
@@ -69,6 +69,12 @@ Gerry.listeners : Array
  * The logger function, for default it outputs to console.
  */
 Gerry.lfn : Function
+
+/*
+ * Sn obj/hash contianing The list of collected event names and arguments.
+ * { events : [ .. ], args : [ .. ] }
+ */
+Gerry.collected : Object
 ```
 
 ###Methods
