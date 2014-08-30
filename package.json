@@ -1,7 +1,7 @@
 {
   "name": "gerry",
-  "version": "0.5.3",
-  "description": "Gerry,a tiny module for event logging.",
+  "version": "0.6.0",
+  "description": "Gerry,,a tiny module for collecting and logging events.",
   "homepage": "https://github.com/rootslab/gerry",
   "repository": {
     "type": "git",

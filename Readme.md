@@ -14,9 +14,9 @@
 
 [![NPM GRAPH1](https://nodei.co/npm-dl/gerry.png)](https://nodei.co/npm/gerry/)
 
-[![NPM GRAPH2](https://nodei.co/npm/gerry.png?downloads=true&stars=true)](https://nodei.co/npm/gerry/)
+[![NPM GRAPH2](https://nodei.co/npm/gerry.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gerry/)
 
-> **_Gerry_**, a tiny module for event logging.
+> **_Gerry_**, a tiny module for collecting and logging events.
 
 ###Install
 
@@ -131,3 +131,5 @@ Gerry#flush = function () : Cucu
 > CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 > TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 > SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[![GA](https://ga-beacon.appspot.com/UA-53998692-1/gerry/Readme?pixel)](https://github.com/igrigorik/ga-beacon)
