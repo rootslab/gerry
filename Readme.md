@@ -96,7 +96,7 @@ Gerry#disable = function ( [ Function logger ] ) :
 /*
  * Update/push event names, a name is added if not already exists in the list.
  */
-Gerry#push = function ( [ Boolean collect_events [, Array evt_names | String evt_name_1 [, ..String evt_name_N.. ] ] ] ) : Number
+Gerry#push = function ( [ Boolean collect_events [, Array evt_names ] ] ) : Number
 
 /*
  * Return the current list length.
