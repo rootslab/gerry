@@ -86,12 +86,12 @@ Gerry.collected : Object
 /*
  * Enable event logging by adding all events listeners.
  */
-Gerry#enable = function ( [ Boolean collect_events [, Function logger ] ] ) :
+Gerry#enable = function ( [ Boolean collect_events [, Function logger ] ] ) : Gerry
 
 /*
  * Disable event logging by removing all events listeners.
  */
-Gerry#disable = function ( [ Function logger ] ) :
+Gerry#disable = function ( [ Function logger ] ) : Gerry
 
 /*
  * Update/push event names, a name is added if not already exists in the list.
@@ -106,7 +106,7 @@ Gerry#size = function () : Number
 /*
  * Flush event names and listeners.
  */
-Gerry#flush = function () : Cucu
+Gerry#flush = function () : Gerry
 ```
 
 ### MIT License
