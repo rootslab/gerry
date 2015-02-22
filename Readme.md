@@ -1,21 +1,23 @@
 ###Gerry
 
-[![CODECLIMATE](http://img.shields.io/codeclimate/github/rootslab/gerry.svg?style=flat)](https://codeclimate.com/github/rootslab/gerry)
-[![CODECLIMATE-TEST-COVERAGE](http://img.shields.io/codeclimate/coverage/github/rootslab/gerry.svg?style=flat)](https://codeclimate.com/github/rootslab/gerry)
-
-[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/gerry#mit-license)
-[![GITTIP](http://img.shields.io/gittip/rootslab.svg?style=flat)](https://www.gittip.com/rootslab/)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/gerry.svg?style=flat)](http://npm-stat.com/charts.html?package=gerry)
-
 [![NPM VERSION](http://img.shields.io/npm/v/gerry.svg?style=flat)](https://www.npmjs.org/package/gerry)
+[![CODACY BADGE](https://img.shields.io/codacy/b18ed7d95b0a4707a0ff7b88b30d3def.svg?style=flat)](https://www.codacy.com/public/44gatti/gerry)
+[![CODECLIMATE](http://img.shields.io/codeclimate/github/rootslab/gerry.svg?style=flat)](https://codeclimate.com/github/rootslab/gerry)
+[![CODECLIMATE-TEST-COVERAGE](https://img.shields.io/codeclimate/coverage/github/rootslab/gerry.svg?style=flat)](https://codeclimate.com/github/rootslab/gerry)
+[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/gerry#mit-license)
+
 [![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/gerry.svg?style=flat)](http://travis-ci.org/rootslab/gerry)
 [![BUILD STATUS](http://img.shields.io/david/rootslab/gerry.svg?style=flat)](https://david-dm.org/rootslab/gerry)
 [![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/gerry.svg?style=flat)](https://david-dm.org/rootslab/gerry#info=devDependencies)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/gerry.svg?style=flat)](http://npm-stat.com/charts.html?package=gerry)
 
 [![NPM GRAPH1](https://nodei.co/npm-dl/gerry.png)](https://nodei.co/npm/gerry/)
 
 [![NPM GRAPH2](https://nodei.co/npm/gerry.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gerry/)
 
+[![status](https://sourcegraph.com/api/repos/github.com/rootslab/gerry/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/gerry)
+[![views](https://sourcegraph.com/api/repos/github.com/rootslab/gerry/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/gerry)
+[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/gerry/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/gerry)
 > **_Gerry_**, a tiny module for collecting and logging events.
 
 ###Install
@@ -111,7 +113,7 @@ Gerry#flush = function () : Gerry
 
 ### MIT License
 
-> Copyright (c) 2014 &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
+> Copyright (c) 2015 &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
 
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the

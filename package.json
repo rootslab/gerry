@@ -1,37 +1,41 @@
 {
-  "name": "gerry",
-  "version": "0.6.2",
-  "description": "Gerry,,a tiny module for collecting and logging events.",
-  "homepage": "https://github.com/rootslab/gerry",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/rootslab/gerry.git"
-  },
-  "keywords": [
-    "gerry",
-    "logger",
-    "event logger",
-    "logging",
-    "debug",
-    "util"
-  ],
-  "author": {
-    "name": "Guglielmo Ferri",
-    "email": "44gatti@gmail.com"
-  },
-  "dependencies": {
-    },
-  "main": "index",
-  "engines": {
+  "name": "gerry"
+  , "version": "0.6.4"
+  , "description": "Gerry,a tiny module for collecting and logging events."
+  , "homepage": "https://github.com/rootslab/gerry"
+  , "private": false
+  , "repository": {
+    "type": "git"
+    , "url": "git://github.com/rootslab/gerry.git"
+  }
+  , "keywords": [
+    "gerry"
+    , "logger"
+    , "event logger"
+    , "logging"
+    , "debug"
+    , "util"
+  ]
+  , "author": {
+    "name": "Guglielmo Ferri"
+    , "email": "44gatti@gmail.com"
+  }
+  , "dependencies": {
+  }
+  ,
+  "devDependencies": {
+  }
+  , "main": "index"
+  , "engines": {
     "node": ">=0.8.x"
-  },
-  "scripts": {
-    "test": "node test/run.js",
-    "bench": "bash bench/run.sh"
-  },
-  "license": "MIT",
-  "readmeFilename": "Readme.md",
-  "bugs": {
+  }
+  , "scripts": {
+    "test": "node test/run.js"
+    , "bench": "bash bench/run.sh"
+  }
+  , "license": "MIT"
+  , "readmeFilename": "Readme.md"
+  , "bugs": {
     "url": "https://github.com/rootslab/gerry/issues"
   }
 }
